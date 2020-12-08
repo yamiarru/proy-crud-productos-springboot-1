@@ -1,5 +1,4 @@
 # proy-crud-productos-springboot-1
-# Aplicacion CRUD -productos-springboot 
 
 ##  Spring Framework 5 y Spring Boot 
 
