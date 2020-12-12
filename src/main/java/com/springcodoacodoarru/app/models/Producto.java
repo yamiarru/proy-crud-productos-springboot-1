@@ -14,13 +14,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @Document(collection = "productos")
-
 public class Producto implements Serializable {
 
 	private static final long serialVersionUID = 1731902390885211826L;
 
 	@MongoId(value = FieldType.OBJECT_ID)
-
 	private String id;
 
 	private String nombre;
@@ -34,4 +32,5 @@ public class Producto implements Serializable {
 	private Integer cantidad;
 
 	private String rubro;
+
 }

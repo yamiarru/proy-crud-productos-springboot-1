@@ -4,6 +4,5 @@ import com.springcodoacodoarru.app.models.Producto;
 
 public interface IProductoService {
 
-	public abstract Producto IdProducto(Integer IdProducto);
-
+	public abstract Producto IdProducto(String idProducto);
 }
